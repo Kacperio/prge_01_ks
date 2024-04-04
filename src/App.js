@@ -6,8 +6,6 @@ const user_list = [
   { name: "Piotr" },
 ];
 
-console.log(user_list);
-
 function App() {
   return (
     <div className="App">
