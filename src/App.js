@@ -1,18 +1,12 @@
 import "./App.css";
-
-const user_list = [
-  { name: "Oliver" },
-  { name: "Stanisław" },
-  { name: "Piotr" },
-];
+import Home from "./componets/home/Home";
 
 function App() {
+  const imie = "WOOOORLDD";
+
   return (
     <div className="App">
-      <header className="App-header"></header>
-      {user_list.map((user) => {
-        return <div>{user.name}</div>;
-      })}
+      <Home text={imie} />
     </div>
   );
 }
